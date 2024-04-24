@@ -33,6 +33,15 @@ public class HelloController {
         return  sb.toString();
     }
 
+    @GetMapping("say-hello-jsp")
+    public String sayHelloJsp(){
+        return "sayHello";
+    }
+
+
+    //JSP
+    //Java Server Pages
+
 
 
 }
